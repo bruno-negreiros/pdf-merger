@@ -1,0 +1,19 @@
+{
+  "name": "pdf-merger-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^21.3.1",
+    "electron-packager": "^17.1.1"
+  },
+  "dependencies": {
+    "pdf-lib": "^1.17.1"
+  }
+}

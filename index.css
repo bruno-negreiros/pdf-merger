@@ -1,0 +1,33 @@
+body,html {
+	margin: 0;
+	padding: 0;
+}
+* {
+	box-sizing: border-box;
+}
+
+body {
+	height: 100vh;
+}
+
+.flex {
+  display: flex;
+}
+
+.column {
+	flex-direction: column;
+}
+
+.center {
+	justify-content: center;
+}
+
+.container {
+	padding: 10px;
+}
+
+#files-list {
+	display: flex;
+	justify-content: center;
+	visibility: hidden;
+}
